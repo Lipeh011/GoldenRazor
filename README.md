@@ -1,7 +1,26 @@
-# GoldenRazor
-GoldenRazor é uma solução completa para barbearias de alto padrão. O projeto conta com:
+# GoldenRazor - Sistema Integrado de Gestão e Apresentação
 
-Front-end completo: Design responsivo, sofisticado e moderno.
-Back-end completo: Funcionalidades dinâmicas para gerenciamento de clientes e serviços.
-Design luxuoso: Interface elegante inspirada em ambientes premium, com paleta preta e dourada.
-A ferramenta une apresentação do negócio e gestão eficiente, criando uma experiência digital robusta e estilosa.
+GoldenRazor é um sistema completo de gestão e apresentação para barbearias de alto padrão. O projeto combina front-end sofisticado com back-end robusto, oferecendo uma experiência de usuário moderna e responsiva. 
+
+## Funcionalidades
+
+- **Front-End Completo**: Design luxuoso e responsivo.
+- **Back-End Completo**: Sistema de agendamento, gestão de perfis de clientes e barbeiros.
+- **Design Premium**: Estilo inspirado em ambientes de luxo, com paleta preta e dourada, utlizandos melhores tecnicas de UI/UX design.
+
+## Tecnologias Utilizadas
+
+- Front-End: HTML5, CSS3, JavaScript
+- Back-End: JSP (Java Server Pages)
+- Banco de Dados: MySQL
+
+## Como Executar
+
+1. Clone este repositório.
+2. Configure o banco de dados MySQL.
+3. Execute o servidor JSP para visualizar o site.
+
+## Licença
+
+Este projeto está sob a licença MIT.
+
