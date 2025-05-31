@@ -1,0 +1,166 @@
+body {
+    background-color: #222; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.cadastro-container {
+    width: 100%;
+    max-width: 600px; 
+    padding: 15px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.cadastro-logo {
+    max-width: 150px;
+    width: 100%; /* Tornar o logotipo responsivo */
+}
+
+.cadastro-header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #c39b77; 
+}
+
+.cadastro-header p {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.cadastro-form label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cadastro-form input {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #555;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.cadastro-form input::placeholder {
+    color: #aaa;
+}
+
+.btn-cadastro {
+    padding: 12px;
+    background: #c39b77;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.btn-cadastro:hover {
+    background: #b18a65;
+}
+
+.login-option {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-option .login-link {
+    color: #c39b77;
+    text-decoration: none;
+}
+
+.login-option .login-link:hover {
+    text-decoration: underline;
+}
+/* Destaque ao passar o mouse */
+.cadastro-form input:hover {
+    border: 1px solid #c39b77; /* Cor que combina com o tema */
+}
+
+/* Borda vermelha para inputs com erro */
+input.erro {
+    border: 1px solid #ff0000;
+}
+
+/* Mensagem de erro personalizada */
+.mensagem-erro {
+    color: #c39b77; /* Cor vermelha para destacar mensagens de erro */
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; /* Inicialmente oculta */
+}
+
+
+
+/* Media queries para ajustes em telas menores */
+@media (max-width: 768px) {
+    .cadastro-container {
+        padding: 20px;
+    }
+
+    .cadastro-header h1 {
+        font-size: 22px;
+    }
+
+    .cadastro-header p {
+        font-size: 14px;
+    }
+
+    .cadastro-form input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn-cadastro {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cadastro-container {
+        padding: 15px;
+    }
+
+    .cadastro-header h1 {
+        font-size: 20px;
+    }
+
+    .cadastro-header p {
+        font-size: 13px;
+    }
+
+    .cadastro-form input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .btn-cadastro {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .login-option {
+        font-size: 12px;
+    }
+}

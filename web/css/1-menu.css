@@ -1,0 +1,93 @@
+
+section.menu {
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor-de-title);
+    background: #1f1a11;
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    width: 15em;
+}
+
+.menu img {
+    width: 150px;
+    height: 90px;
+    margin: 0 10px;
+}
+
+.menu nav {
+    display: flex;
+
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list__item {
+    margin: 0 10px;
+}
+
+.menu__list a {
+    font-family: "Red Hat Text", Sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d1b24a;
+    padding: 14px 12px;
+}
+
+.menu__list a:hover {
+    color: var(--cor-azul-personalizado);
+    font-size: 16.2px;
+    transition: 0.1s all;
+}
+
+.menu__list__item__contato {
+    display: flex;
+}
+
+  .menu-btn {
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--cor-de-title);
+        display: none; 
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 3;
+    }
+
+    .sidebar {
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: -250px; 
+        transition: 0.3s;
+        padding-top: 60px;
+        color: white;
+        z-index: 2;
+    }
+
+    .sidebar a {
+        padding: 15px;
+        text-decoration: none;
+        color: #ddd;
+        display: block;
+        transition: 0.2s;
+    }
+
+    .sidebar a:hover {
+        background-color: #575757;
+    }
+
+    
+ 

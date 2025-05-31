@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Golden Razor</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/1-menu.css">
+        <link rel="stylesheet" href="css/2-inicio.css">
+        <link rel="stylesheet" href="css/3-sobre.css">
+        <link rel="stylesheet" href="css/4-servicos.css">
+        <link rel="stylesheet" href="css/5-localizacao.css">
+        <link rel="stylesheet" href="css/6-galeria.css">
+        <link rel="stylesheet" href="css/7-contato.css">
+        <link rel="stylesheet" href="css/8-rodape.css">
+        <link rel="stylesheet" href="responsive/tablet.css">
+        <link rel="stylesheet" href="responsive/mobile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <span class="menu-btn" onclick="toggleMenu()">☰</span>
+
+        <section class="menu">
+            <header class="header">
+                <img src="assets/GoldenRazor_logo.png" alt="Logo">
+            </header>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#inicio">Início</a></li>
+                    <li class="menu__list__item"><a href="#sobre">Sobre</a></li>
+                    <li class="menu__list__item"><a href="#servicos">Serviços</a></li>
+                    <li class="menu__list__item"><a href="#galeria">Galeria</a></li>
+                    <li class="menu__list__item menu__list__item-contato"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="sidebar" id="sidebar">
+            <a href="#inicio">Início</a>
+            <a href="#sobrenos">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <main>
+
+            <section id="inicio" class="secao_inicio">
+                <div class="box-inicio">
+                    <div class="img-text">
+                        <img src="assets/GoldenRazor_inicio.png" alt="Imagem da Barbearia GoldenRazor">
+                        <a href="#">
+                            <button class="button-agendar-inicio" onclick="window.location.href = 'pages/login.html'">AGENDE AGORA</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sobre" class="sobre">
+                <div class="container-sobre">
+                    <img src="assets/GoldenRazor-BarberShop.webp" alt="Imagem da barbearia" class="imagem-sobre">
+                    <div class="texto">
+                        <h2>Sobre nós</h2>
+                        <p>Bem-vindo à GoldenRazor, onde tradição e modernidade se encontram para oferecer a melhor experiência em cuidados masculinos. Desde o momento em que você entra, é recebido em um ambiente acolhedor, projetado para que se sinta em casa. Nossa equipe de barbeiros experientes combina o clássico e o contemporâneo, proporcionando serviços que vão desde cortes de cabelo modernos até cuidados de barba. Valorizamos cada cliente e buscamos criar um relacionamento de confiança, tornando cada visita mais do que um simples serviço. Na GoldenRazor, você encontra um espaço para relaxar e renovar sua imagem, sempre com um atendimento de qualidade e atenção aos detalhes. Venha descobrir um novo padrão de cuidados masculinos, onde sua satisfação é nossa prioridade.</p>
+                        <h2>Origem</h2>
+                        <p>A GoldenRazor surgiu com a missão de unir tradição e modernidade nos cuidados masculinos. Começamos como uma pequena barbearia de bairro, com o propósito de resgatar o atendimento clássico e personalizado. Ao longo dos anos, crescemos e nos tornamos um espaço onde cada detalhe é pensado para oferecer uma experiência única. Na GoldenRazor, valorizamos cada cliente e nos dedicamos a preservar o espírito da barbearia tradicional, sempre com um toque contemporâneo.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicos" class="servico">
+                <h2>Serviços</h2>
+                <div class="container-box">
+                    <article class="box-servico">
+                        <div class="box">
+                            <img src="assets/cabelo-homem-corte.avif" alt="Corte de cabelo">						
+                            <h3>CORTE</h3>
+                            <p>R$ 110.00</p>
+                            <button class="button-agendar" onclick="window.location.href = 'pages/login.html'">AGENDE AGORA</button>
+                        </div>          
+                    </article> 
+
+                    <article class="box-servico">
+                        <div class="box">
+                            <img src="assets/cortador-de-barba.avif" alt="Barba">
+                            <h3>BARBA</h3>
+                            <p>R$ 40.00</p>
+                            <button class="button-agendar" onclick="window.location.href = 'pages/login.html'">AGENDE AGORA</button>
+                        </div>          
+                    </article>
+
+                    <article class="box-servico">
+                        <div class="box">
+                            <img src="assets/cabeloEbarba.avif" alt="Corte e barba">	
+                            <h3>CORTE + BARBA</h3>
+                            <p>R$ 140.00</p>
+                            <button class="button-agendar" onclick="window.location.href = 'pages/login.html'">AGENDE AGORA</button>
+                        </div>          
+                    </article>
+                </div>
+            </section>	
+
+            <section id="localizacao" class="localizacao">
+                <h2>Local</h2>
+                <div class="container-box">
+                    <article class="box-localizacao">
+                        <div class="box-loc">
+                            <h2>Unidade - Jardim Europa</h2>
+                            <img src="assets/barbearia-GoldenRazor.webp" alt="Barba">
+                            <p>A GoldenRazor, no Jardim Europa (Avenida Europa, 1923), é uma barbearia de alto padrão que une tradição e modernidade em um ambiente sofisticado. Ideal para quem busca um atendimento exclusivo e uma experiência completa de cuidado e estilo.</p>
+                            <button class="button-agendar" onclick="window.location.href = 'login.html'">AGENDE AGORA</button>
+                        </div>          
+                    </article>
+                </div>
+            </section>
+
+            <section id="galeria"class="galeria">
+                <h2> Galeria </h2>
+                <p>Explore nossa galeria de cortes Golden Razor, onde estilo, precisão e arte se encontram para criar tendências inspiradoras. </p>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/corte-1.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-2.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-3.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-4.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-5.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-6.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-7.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-8.jpg"></div>
+                        <div class="swiper-slide"><img src="assets/corte-9.jpg"></div>		
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class="button-agendar" onclick="window.location.href = 'pages/login.html'">AGENDE AGORA</button>
+            </section>  
+
+            <div class="contact-container" id="contato">
+                <section class="contact-section">
+                    <h2>Entre em Contato</h2>
+                    <form>
+                        <input type="text" name="nome" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                        <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </section>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8427249194735!2d-122.4194154851012!3d37.77492977975879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5e5ef37d%3A0x0!2zMzfCsDQ2JzI5LjgiTiAxMjLCsDI1JzEyLjciVw!5e0!3m2!1sen!2sbr!4v1618585154289!5m2!1sen!2sbr"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>	  		
+        </main>
+        <footer class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">Golden Razor</div>
+                    <p>A barbearia premium que combina tradição com modernidade para oferecer um corte de cabelo e barba impecável.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Endereço: Avenida Europa, 1923 - Cidade, Estado</p>
+                    <p>Telefone: (11) 98765-4321</p>
+                    <p>Email: contato@goldenrazor.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Siga-nos</h4>
+                    <div class="footer-socials">
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <div class="footer-links">
+                        <a href="#sobre">Sobre Nós</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#contato">Contato</a>
+                        <a href="#horarios">Horários</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Golden Razor - Todos os direitos reservados.
+            </div>
+        </footer>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,65 @@
+.box-inicio {
+    width: 100%;
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url('../assets/haircut-start.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-text {
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.img-text img {
+    width: 37vw; 
+    max-height: 60vh; 
+    margin: 0;
+    transform: rotate(13deg); 
+}
+
+.button-agendar {
+    font-family: "Zen Antique Soft", Sans-serif;
+    font-size: 24px; 
+    font-weight: 900;
+    padding: 7px 70px; 
+    max-width: 500px; 
+    color: #FFF9F9; 
+    background: var(--cor-de-button);
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.67);
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-bottom: 35px; 
+}
+.button-agendar-inicio {
+    font-family: "Zen Antique Soft", Sans-serif;
+    font-size: 24px; 
+    font-weight: 900;
+    padding: 7px 70px; 
+    max-width: 500px; 
+    color: #FFF9F9; 
+    background: var(--cor-de-button);
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.67);
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-bottom: 35px; 
+}
+
+.button-agendar-inicio:hover{
+    background: #B8861F;    
+    transform: translateY(-2px);
+    
+}
+
+
+.button-agendar:hover {
+    background-color: dark(var(--cor-de-button) 10%);
+    transform: translateY(-2px); 
+
+  
+}

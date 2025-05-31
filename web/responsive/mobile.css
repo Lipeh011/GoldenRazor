@@ -1,0 +1,49 @@
+@media (max-width: 480px) {
+    .localizacao h2 {
+        font-size: 1.8rem;
+    }
+
+    .box-localizacao {
+        padding: 15px;
+    }
+
+    .box-loc p {
+        font-size: 0.85rem;
+    }
+
+    .box-loc button {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+}
+@media (max-width: 400px) {
+    .button-agendar {
+        font-size: 16px;
+        padding: 6px 12px; 
+        width: 80%; 
+    }
+}
+
+@media (max-width: 320px) {
+    .localizacao h2 {
+        font-size: 1.5rem;
+    }
+
+    .box-localizacao {
+        width: 90vw;
+        padding: 10px;
+    }
+
+    .box-localizacao img {
+        max-height: 200px;
+    }
+
+    .box-loc p {
+        font-size: 0.75rem;
+    }
+
+    .box-loc button {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+}
