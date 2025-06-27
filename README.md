@@ -36,7 +36,7 @@ A proposta do projeto foi construir tudo sem usar frameworks como Spring ou Angu
 
 ---
 
-## 🚀 Melhorias Futuras
+## Melhorias Futuras
 
 O GoldenRazor foi estruturado com possibilidade de evolução. A seguir, os próximos passos de atualização tecnológica:
 
@@ -48,15 +48,15 @@ O GoldenRazor foi estruturado com possibilidade de evolução. A seguir, os pró
 
 ---
 
-## 🖼️ Demonstração
+## Demonstração
 
 ![Galeria](https://media.discordapp.net/attachments/1250289117909090375/1388249378422259752/image.png?ex=68604b7c&is=685ef9fc&hm=56dedd4c39ec03e5e621a4b2e7d288bbae6c9d29f2d344748f9d4ecb741b6d2a&=&format=webp&quality=lossless)
 
-▶️ [Clique aqui para ver o vídeo de demonstração](https://youtu.be/ofKipAi2vL8)
+[Clique aqui para ver o vídeo de demonstração](https://youtu.be/ofKipAi2vL8)
 
 ---
 
-## ⚙️ Como Executar
+## Como Executar
 
 1. Clone este repositório.
 2. Importe o banco de dados MySQL .
