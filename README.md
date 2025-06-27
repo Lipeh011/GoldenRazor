@@ -8,12 +8,7 @@ GoldenRazor é um sistema completo de gestão e apresentação para barbearias d
 - **Back-End Completo**: Sistema de agendamento, gestão de perfis de clientes e barbeiros.
 - **Design Premium**: Estilo inspirado em ambientes de luxo, com paleta preta e dourada, utlizandos melhores tecnicas de UI/UX design.
 
-## Clique na imagem abaixo e assista a demonstração
-[![Assista ao vídeo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnsk8XccF9tiT-aDrL6tRQILqWQDcY4LZWEg&s)](https://youtu.be/ofKipAi2vL8)
-
-
-
-
+## Assista a demonstração do projeto pelo o link ao lado --> [![Assista ao vídeo](https://youtu.be/ofKipAi2vL8)
 
 ## Como Executar
 
