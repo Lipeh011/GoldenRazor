@@ -13,6 +13,8 @@ GoldenRazor é um sistema completo de gestão e apresentação desenvolvido para
 
 ## Demonstração
 
+![](https://media.discordapp.net/attachments/1250289117909090375/1388248342068203621/image.png?ex=68604a85&is=685ef905&hm=74d2a5ebb9370bff8af16036aa16bf82edf52d60475ea2bb626e4f3be13a2464&=&format=webp&quality=lossless)
+
 ▶️ [Clique aqui para ver o vídeo de demonstração](https://youtu.be/ofKipAi2vL8)
 
 ## Como Executar
