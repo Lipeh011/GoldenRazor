@@ -50,7 +50,7 @@ O GoldenRazor foi estruturado com possibilidade de evolução. A seguir, os pró
 
 ## Demonstração
 
-![Galeria](https://media.discordapp.net/attachments/1250289117909090375/1388249378422259752/image.png?ex=68604b7c&is=685ef9fc&hm=56dedd4c39ec03e5e621a4b2e7d288bbae6c9d29f2d344748f9d4ecb741b6d2a&=&format=webp&quality=lossless)
+![Galeria](https://github.com/user-attachments/assets/4324d8b1-2f4b-410f-995a-e27b65004124)
 
 [Clique aqui para ver o vídeo de demonstração](https://youtu.be/ofKipAi2vL8)
 
